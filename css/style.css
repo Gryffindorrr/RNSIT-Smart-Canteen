@@ -1,0 +1,58 @@
+.sidenav a{
+	text-decoration: none;
+}
+
+
+.nav-wrapper > a {
+	text-decoration: none;
+	font-family: 'Cabin' , sans-serif;
+	background-color:#27265C;
+	
+}
+div.nav-wrapper {
+	background-color:#27265C;
+	
+}
+
+.nav-wrapper > a:hover {
+	color: white;
+
+}
+
+.hvr-grow {
+    text-decoration: none;
+    background-color:#27265C;
+
+
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+	text-decoration: none;
+	color: white;
+}
+
+.slider .indicators .indicator-item.active{
+	background-color: #27265C;
+}
+
+@media(max-width : 992px) {
+
+	.nav-wrapper > a:hover {
+		color: black;
+		
+	
+	}
+	
+}
+
+@media(min-width : 992px) {
+
+	.nav-wrapper > a {
+		padding-left: 35px;
+		
+	}
+	
+}
+
